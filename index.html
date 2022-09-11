@@ -1,0 +1,39 @@
+<!Doctype html>
+    <head>
+        <title>Number Guessing Game</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="title" id="title">
+                Let's Check
+                How Lucky You Are???🤩🤩🤩
+            </h1>
+            <p class="between">(Between 1 and 100)</p>
+            <button class="btn again" id="again">
+             Again!
+            </button>
+            <div class="number">??</div>
+        </header>
+        <main id="main">
+            <section class="left">
+                <input  class="guess" id="guessing" value="0" type="number" />
+                <button class="btn checkbtn" id="check">
+                    Check :
+                </button>
+            </section>
+            <section class="right">
+                <p class="message" id="message">Start Guessing.....🤗🤗🤗</p>
+                <p class="label-score">
+                💯💯 Score :
+                <span class="score" id="score">100</span>
+                </p>
+                <p class="label-highscore">
+                 🥇🥇Highscore :
+                <span class="highscore" id="highscore">0</span>
+                </p>
+            </section>
+        </main>
+        <script src="logic.js"></script>
+    </body>
+</html>
